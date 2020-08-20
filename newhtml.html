@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    </head>
+    <body>
+        <div>
+            <form action='controlador_aluno.php' method='post' >
+
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Nome do estudante</label>
+                    <input class='form-control' type='text' name='nome'>
+                </div>
+                <div class='form-group'>
+                    <label class='control-label'>Genero</label>
+                    <select class='form-control' name='genero'>
+                        <option value='M'>Masculino</option>
+                        <option value='F'>Femenino</option>
+                    </select>
+                </div>
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Nome do Pai</label>
+                    <input class='form-control' name='pai' type='text'>
+                </div>
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Nome da mãe</label>
+                    <input class='form-control' name='mae' type='text'>
+                </div>
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Nº BI</label>
+                    <input class='form-control' type='text' name='bi'>
+                </div>
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Residência</label>
+                    <input class='form-control' type='text' name='residencia'>
+                </div>
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Naturalidade</label>
+                    <input class='form-control' type='text' name='naturalidade'>
+                </div>
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Provincia</label>
+                    <input class='form-control' type='text' name='provincia'>
+                </div>
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Data de nascimento</label>
+                    <input class='form-control' type='date' name='nascimento'>
+                </div>
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Estado Civil</label>
+                    <input class='form-control' type='text' name='estadosivil'>
+                </div>
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Data emisão do BI</label>
+                    <input class='form-control' type='date' name='emissao'>
+                </div>
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Data de validade do BI</label>
+                    <input class='form-control' type='date' name='validade'>
+                </div>
+                <div class='form-group'>
+                    <label class='control-label'>Curso</label>
+                    <select class='form-control' name='curso'>
+                        <option value='none' selected='' disabled=''>Selecione o curso</option>
+                        <option value='Informática'>Informática</option>
+                        <option value='Economicas e Júridicas'>Economicas e Júridicas</option>
+                        <option value='Fisícas e Biologicas'>Fisícas e Biologicas</option>
+                    </select>
+                </div>
+                <div class='form-group label-floating'>
+                    <label class='control-label'>Ano Lectivo</label>
+                    <input class='form-control' type='date' name='anoletivo'>
+                </div>
+                <div class='form-group'>
+                    <label class='control-label'>Turno</label>
+                    <select class='form-control' name='turno'>
+                        <option value='Manhã'>Manhã</option>
+                        <option value='Tarde'>Tarde</option>
+                        <option value='Noite'>Noite</option>
+                    </select>
+                </div>
+                <div class='form-group'>
+                    <label class='control-label'>Classe</label>
+                    <select class='form-control' name='classe'>
+                        <option value='11º'>11º</option>
+                    </select>
+                </div>
+                <div class='form-group'>
+                    <label class='control-label'>Turma</label>
+                    <select class='form-control' name='turma'>
+                        <option value='I11AM'>I11AM</option>
+                        <option value='I11AT'>I11AT</option>
+                        <option value='11FBM'>11FBM</option>
+                        <option value='11FBT'>11FBT</option>
+                        <option value='11FBN'>11FBN</option>
+                        <option value='11EJM'>11EJM</option>
+                        <option value='11EJT'>11EJT</option>
+                        <option value='11EJN'>11EJN</option>
+                    </select>
+                </div>
+                <p class='text-center'>
+                    <button class='btn btn-info btn-raised btn-sm' value='salvar' ><i class='zmdi zmdi-floppy'></i>Cadastrar</button>
+                </p>
+            </form>
+        </div>
+    </body>
+</html>
